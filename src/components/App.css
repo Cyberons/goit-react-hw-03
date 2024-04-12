@@ -61,8 +61,8 @@ h1 {
 
 /* Стилі для ContactList */
 .contact-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  display: flex;
+  grid-template-columns: repeat(5, minmax(150px, 1fr));
   grid-gap: 20px;
   list-style: none;
   padding: 0;
